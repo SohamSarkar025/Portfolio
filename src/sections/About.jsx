@@ -31,14 +31,14 @@ I'm a final-year engineering student actively learning and building full-stack w
             className="flex items-center justify-center w-full h-full"
           >
             <p className="flex items-end text-5xl text-gray-500">
-              CODE IS CRAFT
+              Touch and drag!
             </p>
-            <Card
+            {/* <Card
               style={{ rotate: "-30deg", top: "60%", left: "45%" }}
               text="Lets play"
               containerRef={grid2Container}
-            />
-            <Card
+            /> */}
+            {/* <Card
               style={{ rotate: "90deg", bottom: "30%", left: "70%" }}
               text="Try to touch me!"
               containerRef={grid2Container}
@@ -52,10 +52,20 @@ I'm a final-year engineering student actively learning and building full-stack w
               style={{ rotate: "20deg", top: "10%", left: "38%" }}
               text="Hover with a click"
               containerRef={grid2Container}
-            />
+            /> */}
             <Card
               style={{ rotate: "30deg", top: "70%", left: "70%" }}
               image="assets/logos/node.svg"
+              containerRef={grid2Container}
+            />
+                        <Card
+              style={{ rotate: "30deg", top: "50%", left: "70%" }}
+              image="assets/logos/socket.io.svg"
+              containerRef={grid2Container}
+            />
+                        <Card
+              style={{ rotate: "30deg", top: "20%", left: "60%" }}
+              image="assets/logos/html5.svg"
               containerRef={grid2Container}
             />
             <Card

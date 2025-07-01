@@ -1,5 +1,4 @@
 import { OrbitingCircles } from "./OrbitingCircles";
-
 export function Frameworks() {
   const skills = [
     "auth0",

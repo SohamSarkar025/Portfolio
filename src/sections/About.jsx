@@ -25,66 +25,20 @@ I'm a final-year engineering student actively learning and building full-stack w
           <div className="absolute inset-x-0 pointer-evets-none -bottom-4 h-1/2 sm:h-1/3 bg-gradient-to-t from-indigo" />
         </div>
         {/* Grid 2 */}
-        <div className="grid-default-color grid-2">
-          <div
-            ref={grid2Container}
-            className="flex items-center justify-center w-full h-full"
-          >
-            <p className="flex items-end text-5xl text-gray-500">
-              Touch and drag!
-            </p>
-            {/* <Card
-              style={{ rotate: "-30deg", top: "60%", left: "45%" }}
-              text="Lets play"
-              containerRef={grid2Container}
-            /> */}
-            {/* <Card
-              style={{ rotate: "90deg", bottom: "30%", left: "70%" }}
-              text="Try to touch me!"
-              containerRef={grid2Container}
-            />
-            <Card
-              style={{ rotate: "-45deg", top: "95%", left: "0%" }}
-              text="Enjoying?"
-              containerRef={grid2Container}
-            />
-            <Card
-              style={{ rotate: "20deg", top: "10%", left: "38%" }}
-              text="Hover with a click"
-              containerRef={grid2Container}
-            /> */}
-            <Card
-              style={{ rotate: "30deg", top: "70%", left: "70%" }}
-              image="assets/logos/node.svg"
-              containerRef={grid2Container}
-            />
-                        <Card
-              style={{ rotate: "30deg", top: "50%", left: "70%" }}
-              image="assets/logos/socket.io.svg"
-              containerRef={grid2Container}
-            />
-                        <Card
-              style={{ rotate: "30deg", top: "20%", left: "60%" }}
-              image="assets/logos/html5.svg"
-              containerRef={grid2Container}
-            />
-            <Card
-              style={{ rotate: "-45deg", top: "70%", left: "25%" }}
-              image="assets/logos/express.svg"
-              containerRef={grid2Container}
-            />
-            <Card
-              style={{ rotate: "-45deg", top: "5%", left: "10%" }}
-              image="assets/logos/mongoDB.svg"
-              containerRef={grid2Container}
-            />
-            <Card
-              style={{ rotate: "-65deg", top: "55%", left: "10%" }}
-              image="assets/logos/react.svg"
-              containerRef={grid2Container}
-            />
-          </div>
-        </div>
+{/* Grid 2 */}
+<div className="grid-default-color grid-2">
+  <div
+    ref={grid2Container}
+    className="flex items-center justify-center w-full h-full bg-cover bg-center"
+    style={{ backgroundImage: "url('assets/background.jpg')" }} // Replace with your image path
+  >
+    {/* Optional overlay text or leave empty */}
+    <p className="text-4xl text-white font-semibold bg-black/50 px-4 py-2 rounded">
+    </p>
+  </div>
+</div>
+
+
         {/* Grid 3 */}
         <div className="grid-black-color grid-3">
           <div className="z-10 w-[50%]">
@@ -111,7 +65,7 @@ I'm a final-year engineering student actively learning and building full-stack w
           <div className="z-10 w-[50%]">
             <p className="headText">Teck Stack</p>
             <p className="subtext">
-              I specialize in a variety of languages, frameworks, and tools taht
+              I specialize in a variety of languages, frameworks, and tools that
               allow me to build robust and scalable applications
             </p>
           </div>

@@ -30,19 +30,9 @@ export const myProjects = [
         path: "/assets/logos/mongoDB.svg",
       },
       {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
-      {
         id: 5,
         name: "Socket.io",
         path: "/assets/logos/socket.io.svg",
-      },
-      {
-        id: 6,
-        name: "Express",
-        path: "/assets/logos/express.svg",
       },
     ],
   },
@@ -92,7 +82,6 @@ export const myProjects = [
       "Get current weather by city name with temperature, humidity, and conditions",
       "Integrated with OpenWeatherMap API for real-time updates",
       "Clean, responsive UI for both desktop and mobile views",
-      "Dynamic weather icons and background changes based on conditions",
     ],
     href: "https://sohamsarkarofficial-portfolio.netlify.app/socialweather",
     logo: "",
@@ -164,7 +153,6 @@ export const myProjects = [
       "EliteTube is a MERN stack-based content platform that enables users to subscribe to creators and engage in exclusive one-on-one paid chats with real-time messaging.",
     subDescription: [
       "Real-time chat using Socket.IO, with typing indicators and message timestamps",
-      "Integrated Tailwind CSS for modern styling and UI enhancements.",
       "Secure authentication with JWT and scalable backend powered by MongoDB Atlas.",
       "Integrated Razorpay payment gateway for seamless paid subscriptions and chats",
       "Supports media uploads via Cloudinary, with a clean UI built using Tailwind CSS"
@@ -220,7 +208,6 @@ export const experiences = [
       "Worked with REST APIs, handling GET and POST requests efficiently",
       "Gained hands-on experience in authentication and authorization using JWT",
       "Integrated Nodemailer for sending emails (e.g., verification, contact forms)",
-      "Explored core Node.js modules and middleware logic",
       "Built reusable frontend components using React.js and mastered React Hooks & props",
       "Worked with MongoDB Atlas for data modeling and cloud database integration",
       "Strengthened debugging, problem-solving, and full-stack implementation skills"
@@ -269,3 +256,4 @@ export const reviews = [
     img: "https://robohash.org/eve",
   },
 ];
+

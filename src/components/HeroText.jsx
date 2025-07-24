@@ -108,7 +108,7 @@ const HeroText = () => {
 
           {/* CV Button for Mobile */}
           <motion.a
-            href="/Soham_Sarkar_CV_PDF.pdf"
+             href="/My_Resume.pdf"
             download
              className="inline-block px-6 py-3 mt-6 text-sm font-semibold text-white bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-lg shadow-md hover:from-indigo-600 hover:via-purple-600 hover:to-pink-600 transition-all duration-300"
             variants={variants}
